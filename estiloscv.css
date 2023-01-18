@@ -1,0 +1,24 @@
+#ancho {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+}
+
+#infopersonal {
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    background-color: #75AADB;
+    margin: color=#75AADB;
+    padding-top: 3%;
+    }
+
+    .circular--square {
+        border-radius: 50%;
+      }
+
+#main {
+    background-color: white;
+    }
+
+
