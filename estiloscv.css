@@ -17,25 +17,61 @@ body h3{
     font-weight: 600;
     color: #4d7397;
     text-transform: uppercase;
+    margin-top: 1rem;
 }
-
 
 body h4{
     font-family: 'Raleway', sans-serif;
     font-size: 10;
+    font-weight: 600;
+    margin-left: 0.5rem;
 }
 
 body p{
     font-family: 'Raleway', sans-serif;
+    margin-left: 1.5rem;
 }
 
 body ul{
     font-family: 'Raleway', sans-serif;
 }
 
+#linea {
+    border-top: 0.1rem solid rgb(19, 26, 124);
+    height: 0px;
+    max-width: 50%;
+    padding: 0;
+    margin: auto 0;
+  }
+
+#previoadetalles{
+    margin-bottom: 0.5rem;
+}
+
+#detallesacademicos{
+    margin: 0 0 1rem 2rem
+}
+
+#contacto{
+    font-family: 'quicksand', sans-serif;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+    font-size: 100%;
+    margin: 0.8rem 0 1rem 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+#infodecontacto{
+    font-size: 80%;
+    margin-left: 0;
+    padding-left: 0;
+    align-items: left;
+}
+
 /**
 ver q entre el email en la barrita cuando se achica
-Que quede espacio entre los cosos
 ver si puedo poner botonera como indice
 fijar lo del costado
 fin
@@ -49,8 +85,6 @@ fin
 
 #infopersonal {
     position: sticky;
-    justify-content: center;
-    align-items: center;
     background-color: #75AADB;
     margin: color=#75AADB;
     /** Un detalle nerd de este color: es el color oficial de la Bandera Argentina */
