@@ -1,3 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
+body h1{
+    font-family: 'quicksand', sans-serif;
+    font-weight: 600;
+    color: #4d7397;
+    text-transform: uppercase;
+}
+body h2{
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+}
+
+body h3{
+    font-family: 'quicksand', sans-serif;
+    font-weight: 600;
+    color: #4d7397;
+    text-transform: uppercase;
+}
+
+
+body h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 10;
+}
+
+body p{
+    font-family: 'Raleway', sans-serif;
+}
+
+body ul{
+    font-family: 'Raleway', sans-serif;
+}
+
+/**
+ver q entre el email en la barrita cuando se achica
+Que quede espacio entre los cosos
+ver si puedo poner botonera como indice
+fijar lo del costado
+fin
+*/
+
 #ancho {
     margin-left: 0;
     margin-right: 0;
@@ -20,6 +63,7 @@
 
 #main {
     background-color: white;
+    text-align: left;
     }
 
 
