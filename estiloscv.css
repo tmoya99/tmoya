@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
 
-body h1{
+.titulos{
     font-family: 'quicksand', sans-serif;
     font-weight: 600;
     color: #4d7397;
     text-transform: uppercase;
+    font-size: calc(1.3rem + 0.6vw);
+    text-decoration: none;
 }
 body h2{
     font-family: 'Raleway', sans-serif;
@@ -36,7 +38,7 @@ body ul{
     font-family: 'Raleway', sans-serif;
 }
 
-#linea {
+#linea{
     border-top: 0.1rem solid rgb(19, 26, 124);
     height: 0px;
     max-width: 50%;
@@ -57,24 +59,29 @@ body ul{
     font-weight: 600;
     color: black;
     text-transform: uppercase;
-    font-size: 100%;
+    font-size: calc(1rem + 0.5vw);
     margin: 0.8rem 0 1rem 0;
     justify-content: center;
     align-items: center;
   }
 
 #infodecontacto{
-    font-size: 80%;
-    margin-left: 0;
+    font-size: calc(0.8rem + 0.3vw);
+    margin: 5%;
     padding-left: 0;
-    align-items: left;
+    overflow-wrap: break-word;
 }
 
+.remove-bg{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+
 /**
-ver q entre el email en la barrita cuando se achica
-ver si puedo poner botonera como indice
+forma botonera
 fijar lo del costado
-fin
+inventar un java
 */
 
 #ancho {
@@ -89,6 +96,8 @@ fin
     margin: color=#75AADB;
     /** Un detalle nerd de este color: es el color oficial de la Bandera Argentina */
     padding-top: 3%;
+    margin: 0;
+    padding:0;
     }
 
     .circular--square {
