@@ -77,13 +77,6 @@ body ul{
     mix-blend-mode: multiply;
 }
 
-
-/**
-forma botonera
-fijar lo del costado
-inventar un java
-*/
-
 #ancho {
     margin-left: 0;
     margin-right: 0;
@@ -103,6 +96,26 @@ inventar un java
     .circular--square {
         border-radius: 50%;
       }
+
+#indice{
+    font-family: 'quicksand', sans-serif;
+    background-color: grey;
+    font-size: calc(0.8rem + 0.3vw);
+}
+
+#indice p{
+    margin: auto;
+    padding: 0.5rem 0 0.5rem 0;
+    background-color: rgb(150, 147, 147);
+    font-weight: 600;
+    color: wheat;
+}
+
+#indice a{
+    text-decoration: none;
+    color: wheat;
+    font-weight: 400;
+}
 
 #main {
     background-color: white;
