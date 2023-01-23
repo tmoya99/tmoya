@@ -9,6 +9,14 @@
     font-size: calc(1.3rem + 0.6vw);
     text-decoration: none;
 }
+
+body h1{
+    font-family: 'raleway', sans-serif;
+    font-weight: 600;
+    color: #3a5772;
+    margin-top: 0.4rem;
+}
+
 body h2{
     font-family: 'Raleway', sans-serif;
     font-style: italic;
