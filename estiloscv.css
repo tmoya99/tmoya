@@ -5,6 +5,7 @@
     font-family: 'quicksand', sans-serif;
     font-weight: 600;
     color: #4d7397;
+    background-color: white;
     text-transform: uppercase;
     font-size: calc(1.3rem + 0.6vw);
     text-decoration: none;
@@ -58,8 +59,19 @@ body ul{
     margin-bottom: 0.5rem;
 }
 
-#detallesacademicos{
+#detallesacademicosuca{
     margin: 0 0 1rem 2rem
+}
+
+#detallesacademicosbrighton{
+    margin: 0 0 1rem 2rem
+}
+
+.botoninfo{
+    margin-bottom: 0.7rem;
+    background-color: #75AADB;
+    color: white;
+    border-color: #4d7397;
 }
 
 #contacto{

@@ -10,8 +10,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 <body>
-    <script src="jscv.js"></script>
-
     <div id="ancho" class="container text-center">
         <div class="row">
           <div id="infopersonal" class="col-3">
@@ -26,12 +24,12 @@
                 <a href="https://www.linkedin.com/in/tomas-moya/" target="_blank">tomas-moya</a></p>
             <div id="indice" style="margin-top:1rem">
                <p>Índice</p> 
-            <a href="#perfil-personal">Perfil personal</a> <br>
-            <a href="#exp-profesional">Experiencia profesional</a> <br>
-            <a href="#historial-academico">Historial académico</a> <br>
-            <a href="#Cursos">Cursos</a> <br>
-            <a href="#Certificados">Certificados</a> <br>
-            <a href="#idiomas">Idiomas</a>
+            <a href="#perfil-personal" id="perfilpersonal">Perfil personal</a> <br>
+            <a href="#exp-profesional" id="expprofesional">Experiencia profesional</a> <br>
+            <a href="#historial-academico" id="historialacademico">Historial académico</a> <br>
+            <a href="#Cursos" id="botoncursos">Cursos</a> <br>
+            <a href="#Certificados" id="botoncertificados">Certificados</a> <br>
+            <a href="#idiomas" id="botonidiomas">Idiomas</a>
             </div>
             </div>
 
@@ -45,7 +43,7 @@
             <h4>Instituto Cenesa</h4>
             <p>Médico practicante en el servicio de Clínica Médica | De diciembre 2022 a la actualidad</p>
             <h4>Ospedale di Desio</h4>
-            <p>Estudiante practicante en el servicio de Medicina Generale en Desio, Lombardia, Italia | de septiembre a octubre de 2022</p>
+            <p>Estudiante practicante en el servicio de Medicina Generale en Desio, Lombardia, Italia | De septiembre a octubre de 2022</p>
             <h4>Asociación Argentina de Arbitros de Hockey</h4>
             <p>Arbitro de hockey | De diciembre 2018 a la actualidad</p>
             <h4>Ministerio de Trabajo, Empleo y Seguridad Social</h4>
@@ -53,18 +51,23 @@
             <a id="historial-academico" class="titulos">Historial académico</a>
             <h4>Pontificia Universidad Católica Argentina (UCA)</h4>
             <p id="previoadetalles">Carrera de Medicina | De marzo 2017 a diciembre 2022</p>
-            <ul id="detallesacademicos">
+            <button type="button" id="masinfouca" class="botoninfo">Más detalles</button>
+            <ul id="detallesacademicosuca" style="display:none">
                 <li>Curso completado</li>
                 <li>Materias aprobadas: 62</li>
                 <li>Promedio general: 8,65</li>
+                <button type="button" id="menosinfouca" class="botoninfo">Ocultar</button>
             </ul>
             <h4>Brighton English College</h4>
             <p id="previoadetalles">Bachiller | Finalizado en diciembre 2014</p>
-            <ul id="detallesacademicos">
+            <button type="button" id="masinfobrighton" class="botoninfo">Más detalles</button>
+            <br style="margin:0;padding:0;" id="separacion">
+            <ul id="detallesacademicosbrighton" style="display:none">
                 <li>Orientación economía y administración</li>
-                <li>Doble lengua extranjera: Ingles (avanzado) y Portugués (basico)</li>
+                <li>Doble lengua extranjera: Ingles (avanzado) e Italiano (basico)</li>
                 <li>Promedio general: 7,79</li>
                 <li>Carácter curricular por disposición N S55 del 21 de diciembre del 2000 por DIPREGEP</li>
+                <button type="button" id="menosinfobrighton" class="botoninfo">Ocultar</button>
             </ul>
             <a id="Cursos" class="titulos">Cursos</a>
             <ul>
@@ -84,5 +87,6 @@
           </div>
         </div>
     </div>
+    <script src="jscv.js"></script>
 </body>
 </html>
