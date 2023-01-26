@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
+.titulos{
+    font-family: 'quicksand', sans-serif;
+    font-weight: 600;
+    color: #4d7397;
+    background-color: white;
+    text-transform: uppercase;
+    font-size: calc(1.3rem + 0.6vw);
+    text-decoration: none;
+}
+
+body h1{
+    font-family: 'raleway', sans-serif;
+    font-weight: 600;
+    color: #3a5772;
+    margin-top: 0.4rem;
+}
+
+body h2{
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+}
+
+body h3{
+    font-family: 'quicksand', sans-serif;
+    font-weight: 600;
+    color: #4d7397;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+body h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 10;
+    font-weight: 600;
+    margin-left: 0.5rem;
+}
+
+body p{
+    font-family: 'Raleway', sans-serif;
+    margin-left: 1.5rem;
+}
+
+body ul{
+    font-family: 'Raleway', sans-serif;
+}
+
+#linea{
+    border-top: 0.1rem solid rgb(19, 26, 124);
+    height: 0px;
+    max-width: 50%;
+    padding: 0;
+    margin: auto 0;
+  }
+
+#previoadetalles{
+    margin-bottom: 0.5rem;
+}
+
+#detallesacademicosuca{
+    margin: 0 0 1rem 2rem
+}
+
+#detallesacademicosbrighton{
+    margin: 0 0 1rem 2rem
+}
+
+.botoninfo{
+    margin-bottom: 0.7rem;
+    background-color: #75AADB;
+    color: white;
+    border-color: #4d7397;
+}
+
+#contacto{
+    font-family: 'quicksand', sans-serif;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+    font-size: calc(1rem + 0.5vw);
+    margin: 0.8rem 0 1rem 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+#infodecontacto{
+    font-size: calc(0.8rem + 0.3vw);
+    margin: 5%;
+    padding-left: 0;
+    overflow-wrap: break-word;
+}
+
+.remove-bg{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+#ancho {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+}
+
+#infopersonal {
+    position: sticky;
+    background-color: #75AADB;
+    margin: color=#75AADB;
+    /** Un detalle nerd de este color: es el color oficial de la Bandera Argentina */
+    padding-top: 3%;
+    margin: 0;
+    padding:0;
+    }
+
+    .circular--square {
+        border-radius: 50%;
+      }
+
+#indice{
+    font-family: 'quicksand', sans-serif;
+    background-color: grey;
+    font-size: calc(0.8rem + 0.3vw);
+}
+
+#indice p{
+    margin: auto;
+    padding: 0.5rem 0 0.5rem 0;
+    background-color: rgb(150, 147, 147);
+    font-weight: 600;
+    color: wheat;
+}
+
+#indice a{
+    text-decoration: none;
+    color: wheat;
+    font-weight: 400;
+}
+
+#main {
+    background-color: white;
+    text-align: left;
+    }
+
+
