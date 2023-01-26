@@ -27,37 +27,68 @@ document.getElementById('menosinfobrighton').onclick=function(){
 
 
 /*De acá para abajo estoy tratando de que, al seleccionar en el indice, se pinte el titulo, y,
-al hacer click en otra parte, se despinte*/
+al hacer click en la parte principal o en otro boton, se despinte*/
         
 document.getElementById('perfilpersonal').onclick=function(){
     console.log("Pintar el titulo que queremos ver")
     document.getElementById('perfil-personal').style.backgroundColor = 'rgb(255, 255, 112)';
+    document.getElementById('exp-profesional').style.backgroundColor = 'white';
+    document.getElementById('historial-academico').style.backgroundColor = 'white'
+    document.getElementById('Certificados').style.backgroundColor = 'white'
+    document.getElementById('Cursos').style.backgroundColor = 'white'
+    document.getElementById('idiomas').style.backgroundColor = 'white'
 }
 
 document.getElementById('expprofesional').onclick=function(){
     console.log("Pintar el titulo que queremos ver")
     document.getElementById('exp-profesional').style.backgroundColor = 'rgb(255, 255, 112)';
+    document.getElementById('perfil-personal').style.backgroundColor = 'white';
+    document.getElementById('historial-academico').style.backgroundColor = 'white'
+    document.getElementById('Certificados').style.backgroundColor = 'white'
+    document.getElementById('Cursos').style.backgroundColor = 'white'
+    document.getElementById('idiomas').style.backgroundColor = 'white'
 }
 
 document.getElementById('historialacademico').onclick=function(){
     console.log("Pintar el titulo que queremos ver")
     document.getElementById('historial-academico').style.backgroundColor = 'rgb(255, 255, 112)';
+    document.getElementById('perfil-personal').style.backgroundColor = 'white';
+    document.getElementById('exp-profesional').style.backgroundColor = 'white'
+    document.getElementById('Certificados').style.backgroundColor = 'white'
+    document.getElementById('Cursos').style.backgroundColor = 'white'
+    document.getElementById('idiomas').style.backgroundColor = 'white'
 }
 
 document.getElementById('botoncertificados').onclick=function(){
     console.log("Pintar el titulo que queremos ver")
     document.getElementById('Certificados').style.backgroundColor = 'rgb(255, 255, 112)';
+    document.getElementById('perfil-personal').style.backgroundColor = 'white';
+    document.getElementById('historial-academico').style.backgroundColor = 'white'
+    document.getElementById('exp-profesional').style.backgroundColor = 'white'
+    document.getElementById('Cursos').style.backgroundColor = 'white'
+    document.getElementById('idiomas').style.backgroundColor = 'white'
 }
 
 document.getElementById('botoncursos').onclick=function(){
     console.log("Pintar el titulo que queremos ver")
     document.getElementById('Cursos').style.backgroundColor = 'rgb(255, 255, 112)';
+    document.getElementById('perfil-personal').style.backgroundColor = 'white';
+    document.getElementById('historial-academico').style.backgroundColor = 'white'
+    document.getElementById('Certificados').style.backgroundColor = 'white'
+    document.getElementById('exp-profesional').style.backgroundColor = 'white'
+    document.getElementById('idiomas').style.backgroundColor = 'white'
 }
 
 document.getElementById('botonidiomas').onclick=function(){
     console.log("Pintar el titulo que queremos ver")
     document.getElementById('idiomas').style.backgroundColor = 'rgb(255, 255, 112)';
+    document.getElementById('perfil-personal').style.backgroundColor = 'white';
+    document.getElementById('historial-academico').style.backgroundColor = 'white'
+    document.getElementById('Certificados').style.backgroundColor = 'white'
+    document.getElementById('Cursos').style.backgroundColor = 'white'
+    document.getElementById('exp-profesional').style.backgroundColor = 'white'
 }
+
 
     document.getElementById('main').onclick=function(){
         console.log("Despintamos el titulo")
@@ -68,3 +99,5 @@ document.getElementById('botonidiomas').onclick=function(){
         document.getElementById('Cursos').style.backgroundColor = 'white'
         document.getElementById('idiomas').style.backgroundColor = 'white'
     }
+
+
